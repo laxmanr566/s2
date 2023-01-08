@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+    text-transform: capitalize;
+}
+
+.order{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.order form{
+    max-width:90rem;
+    border-radius: .5rem;
+    box-shadow: 13px 13px 20px #cbced1, 
+    -13px -13px 20px #fff;
+    background:#ecf0f3;
+    padding: .5rem;
+    margin-top:10%;
+}
+
+.order form .inputBox{
+    align-items:center;
+    justify-content:center;
+    margin-left:3rem;
+    display:flexbox;
+}
+.order form h2{
+    font-size:20px;
+    color:#27ae60;
+    text-align:center;
+}
+.order form h1{
+    font-size:25px;
+    text-align:center;
+}
+.order form .inputBox .input{
+width:99%;
+}
+.order form .inputBox .input span{
+    display:block;
+    padding:.5rem 0;
+    font-size:1.2rem;
+}
+
+.order form .inputBox .input input,
+.order form .inputBox .input textarea{
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-transform:none;
+    margin-bottom: 1rem;
+    width: 90%;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #fff;
+}
+.order form .inputBox .input textarea{
+    height:6rem;
+    resize:none;
+}
+.order form .inputBox .input input:focus,
+.order form .inputBox .input textarea:focus,
+.order form .inputBox .input input:hover,
+.order form .inputBox .input textarea:hover{
+    border: .2rem solid #27ae60;
+}
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    font-size:1.2rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    margin-left: 1.5rem;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px -8px #fff;
+}
+.btn:hover{
+    border:.2rem solid #27ae60;
+    letter-spacing: .1rem;
+}

@@ -1,0 +1,120 @@
+*{
+    margin:10px;
+    padding:0px;
+
+}
+body{
+    background:url(home-img.png);
+    font-size: 17px;
+    font-family: 'Caveat', cursive;
+     font-family: 'Noto Serif NP Hmong', serif;
+     display:flex;
+     justify-content: space-between;
+     background-repeat: no-repeat;
+     background-position: right top;
+}
+.container{
+    width:80%;
+    margin:30px auto;
+}
+.contact-box{
+    background:#fff;
+    display:flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background:black;
+}
+.contact-right{
+    background:url(loader.gif);
+    flex-basis: 40%;
+    padding: 40px;
+    color:black;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+h1{
+    margin-bottom:10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline:none;
+    padding-bottom: 5px;
+}
+textarea{
+    width:100%;
+    border:1px solid #ccc;
+    outline:none;
+    padding:10px;
+    box-sizing: border-box;
+
+}
+label{
+    margin-bottom: 6px;
+    display:block;
+    color: blanchedalmond;
+}
+button{
+  background: blanchedalmond;
+  width:100px;
+  border: none;
+  outline: none;
+  color:black;
+  height:35px;
+  border-radius:30px;
+  margin-top:20px;
+  box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+  align-items: center;
+}
+button:hover{
+    cursor:pointer;
+    color:#fff;
+}
+.contact-left h3{
+    color: blanchedalmond;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right:20px;
+}
+tr td{
+    padding-top:20px;
+}
+@media screen and (max-width:960px) {
+    .container{
+        flex:100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        flex:100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+
+    .container{
+        font-size: 50%;
+    }
+}

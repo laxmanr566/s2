@@ -1,0 +1,174 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    background:rgba(207, 67, 7, 0.9);
+    background-repeat: no-repeat;
+}
+.box{
+    width:250px;
+    height:350px;
+    border:5px solid brown;
+    background:#eee2bcf6;
+    border-radius:60px;
+    margin:auto 5px;
+}
+
+.box img{
+    height:30%;
+    display:block;
+    margin: auto;
+    width:60%;
+}
+.box h3{
+    text-align: center;
+    margin-top: 6px;
+    color:rgba(207, 67, 7, 0.9);
+    font-size:21px;
+}
+.box p{
+    text-align: center;
+    padding: 0px 21px 0px 21px;
+    font-size:16px;
+    margin: 10px 0px 10px 0px;
+}
+.box button{
+    display:block;
+    margin:auto;
+    margin-bottom: 6px;
+    padding:6px;
+    border-radius:10px;
+    cursor:pointer;
+    border: 2px solid rgba(207, 67, 7, 0.9);
+    background:rgba(207, 67, 7, 0.9);
+    color: #fff;
+    font-family:'Bree Serif', serif;
+    transition: all .3s ease-in-out;
+}
+.box button:hover{
+    color:#2B547E;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar">
+            <a class="active" href="Home">Home</a>
+            <a href="Dishes">Dishes</a>
+            <a href="contactus.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="Reviews">Reviews</a>
+            <a href="booktab.html">Order</a>
+            <a href="icecreams">Icecreams</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        .order form{
+            max-width:90rem;
+            border-radius: .5rem;
+            box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+            background:#ecf0f3;
+            padding:1.5rem;
+            margin-top:10%;
+        }
+        .order form .inputBox{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin-left:1.5rem;
+        }
+        .order form h2{
+            font-size:20px;
+            color:#27ae60;
+            text-align:center;
+        }
+        .order form h1{
+            font-size:25px;
+            text-align:center;
+        }
+        .order form .inputBox .input{
+        width:49%;
+        }
+        .order form .inputBox .input span{
+            display:block;
+            padding:.5rem 0;
+            font-size:1.2rem;
+        }
+        
+        .order form .inputBox .input input,
+        .order form .inputBox .input textarea{
+            border-radius: .5rem;
+            padding: .5rem;
+            font-size: 1.2rem;
+            text-transform:none;
+            margin-bottom: 1rem;
+            width: 90%;
+            box-shadow: inset 8px 8px 8px #cbced1,
+            inset -8px -8px 8px #fff;
+        }
+        .order form .inputBox .input textarea{
+            height:10rem;
+            resize:none;
+        }
+        .order form .inputBox .input input:focus,
+        .order form .inputBox .input textarea:focus,
+        .order form .inputBox .input input:hover,
+        .order form .inputBox .input textarea:hover{
+            border: .2rem solid #27ae60;
+        }
+        .btn{
+            margin-top: 1rem;
+            display:inline-block;
+            font-size:1.2rem;
+            padding: .5rem 2rem;
+            border-radius: .5rem;
+            margin-left: 1.5rem;
+            box-shadow: inset 8px 8px 8px #cbced1,
+            inset -8px -8px -8px #fff;
+        }
+        .btn:hover{
+            border:.2rem solid #27ae60;
+            letter-spacing: .1rem;
+        }
